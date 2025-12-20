@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #FB607F, #8806CE); /* pink → purple gradient */
-  color: white;
+  background: linear-gradient(135deg, #FADADD, #CBA0E3); /* pastel pink → lavender */
+  color: #FFFFFF;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -51,7 +51,7 @@ body {
 
 /* Project Cards */
 .project-card {
-  background: linear-gradient(135deg, #FB607F, #8806CE); /* gradient background */
+  background: linear-gradient(135deg, #FADADD, #CBA0E3); /* pastel pink → lavender */
   color: white;
   padding: 1.5rem;
   border-radius: 12px;
@@ -72,6 +72,18 @@ body {
 
 .project-card p {
   line-height: 1.6;
+}
+
+/* Skills Badges (optional) */
+.skill-badge {
+  display: inline-block;
+  background-color: #D88CA4; /* rose/mauve */
+  color: white;
+  padding: 0.3rem 0.8rem;
+  margin: 0.3rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 /* Footer */
