@@ -3,16 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Me</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FB607F, #8806CE);
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background: rgba(255,255,255,0.1);
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .content a {
+      display: inline-block;
+      margin: 0.5rem 0;
+      padding: 0.6rem 1.2rem;
+      background: linear-gradient(135deg, #FB607F, #8806CE);
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content a:hover {
+      opacity: 0.85;
+    }
+    footer {
+      background: rgba(255,255,255,0.1);
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar"> ...same links... </nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="activities.html">Extra Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <section class="content">
     <h1>Contact Me</h1>
-    <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+    <a href="mailto:rakhi0715@gmail.com">Email Me</a><br>
+    <a href="http://www.linkedin.com/in/rakhi-s-18859425a" target="_blank">LinkedIn</a><br>
+    <a href="https://github.com/rakhiiiii315" target="_blank">GitHub</a><br>
+    <a href="resume.pdf" download>Download Resume</a>
   </section>
+
+  <footer>
+    <p>✨ Let’s connect and build something amazing!</p>
+  </footer>
 </body>
 </html>
