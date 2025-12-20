@@ -33,12 +33,67 @@ body {
   color: #FFD700; /* gold hover effect */
 }
 
-/* Content Section */
-.content {
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: linear-gradient(135deg, #FADADD, #CBA0E3);
+  text-align: center;
   padding: 2rem;
-  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
   margin: auto;
-  text-align: left;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #D88CA4; /* rose/mauve accent */
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-btn:hover {
+  background-color: #FFD700; /* gold hover */
+  transform: scale(1.05);
+}
+
+/* About Section */
+.about {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
 }
 
 /* Profile Picture */
@@ -51,7 +106,7 @@ body {
 
 /* Project Cards */
 .project-card {
-  background: linear-gradient(135deg, #FADADD, #CBA0E3); /* pastel pink → lavender */
+  background: linear-gradient(135deg, #FADADD, #CBA0E3);
   color: white;
   padding: 1.5rem;
   border-radius: 12px;
@@ -74,7 +129,7 @@ body {
   line-height: 1.6;
 }
 
-/* Skills Badges (optional) */
+/* Skills Badges */
 .skill-badge {
   display: inline-block;
   background-color: #D88CA4; /* rose/mauve */
@@ -93,4 +148,5 @@ footer {
   margin-top: 2rem;
   text-align: center;
   font-size: 0.9rem;
+  color: #FFFFFF;
 }
