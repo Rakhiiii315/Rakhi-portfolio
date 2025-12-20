@@ -1,13 +1,15 @@
+/* General Page Styling */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #FB607F, #8806CE);
+  background: linear-gradient(135deg, #FB607F, #8806CE); /* pink → purple gradient */
   color: white;
   text-align: center;
 }
 
+/* Navbar */
 .navbar {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
 }
 
@@ -17,52 +19,66 @@ body {
   justify-content: center;
   gap: 2rem;
   padding: 0;
+  margin: 0;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
+.navbar a:hover {
+  color: #FFD700; /* gold hover effect */
+}
+
+/* Content Section */
 .content {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   text-align: left;
 }
 
+/* Profile Picture */
 .profile-pic {
   width: 200px;
   border-radius: 50%;
   margin-top: 1rem;
+  border: 3px solid white;
 }
 
+/* Project Cards */
 .project-card {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #FB607F, #8806CE); /* gradient background */
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  margin: 1.5rem 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
 }
 
 .project-card h3 {
-  margin: 0.5rem 0;
-  color: #FFE4E1;
+  margin-top: 0;
+  font-size: 1.4rem;
 }
 
 .project-card p {
-  color: #f0f0f0;
+  line-height: 1.6;
 }
 
+/* Footer */
 footer {
   background: rgba(255,255,255,0.1);
   padding: 1rem;
   margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
