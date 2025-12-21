@@ -32,7 +32,7 @@ This project showcases my journey as an **Electronics & Communication Engineerin
 ## 🌟 Deployment
 
 The live site is available here:  
-[Portfolio Website](https://Rakhiiii315.github.io/<repo-name>/)
+[Portfolio Website](https://rakhiiii315.github.io/Rakhi-portfolio/)
 
 ---
 
