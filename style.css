@@ -5,6 +5,8 @@ body {
   background: linear-gradient(135deg, #FADADD, #CBA0E3); /* pastel pink → lavender */
   color: #FFFFFF;
   text-align: center;
+  cursor: url('images/prpl_cursor.png'), auto;
+
 }
 
 /* Navbar */
