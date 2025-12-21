@@ -129,16 +129,49 @@ body {
   line-height: 1.6;
 }
 
-/* Skills Badges */
-.skill-badge {
-  display: inline-block;
-  background-color: #D88CA4; /* rose/mauve */
+/* Extra Activities */
+.activities {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.activity-card {
+  background: linear-gradient(135deg, #FADADD, #CBA0E3);
   color: white;
-  padding: 0.3rem 0.8rem;
-  margin: 0.3rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 500;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  margin: 1.5rem 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
+
+.activity-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #D88CA4; /* rose/mauve accent */
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  background-color: #FFD700; /* gold hover */
+  transform: scale(1.05);
 }
 
 /* Footer */
