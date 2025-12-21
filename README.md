@@ -31,7 +31,7 @@ This project showcases my journey as an **Electronics & Communication Engineerin
 
 ## 🌟 Deployment
 This portfolio is hosted using **GitHub Pages**:  
-👉 [View Live Site](https://rakhiiiii315.github.io/portfolio-site)
+👉 [View Live Site](https://Rakhiiii315.github.io/portfolio-site)
 
 ---
 
