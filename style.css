@@ -6,7 +6,6 @@ body {
   color: #FFFFFF;
   text-align: center;
   cursor: url('images/prpl_cursor.png'), auto;
-
 }
 
 /* Navbar */
@@ -41,7 +40,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 80vh;
-  background: linear-gradient(135deg, #FADADD, #CBA0E3);
   text-align: center;
   padding: 2rem;
 }
@@ -65,7 +63,7 @@ body {
   margin-top: 2rem;
   padding: 0.8rem 1.5rem;
   background-color: #D88CA4; /* rose/mauve accent */
-  color: white;
+  color: #FFFFFF;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
@@ -103,13 +101,13 @@ body {
   width: 200px;
   border-radius: 50%;
   margin-top: 1rem;
-  border: 3px solid white;
+  border: 3px solid #FFFFFF;
 }
 
 /* Project Cards */
 .project-card {
   background: linear-gradient(135deg, #FADADD, #CBA0E3);
-  color: white;
+  color: #FFFFFF;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -140,7 +138,7 @@ body {
 
 .activity-card {
   background: linear-gradient(135deg, #FADADD, #CBA0E3);
-  color: white;
+  color: #FFFFFF;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -164,7 +162,7 @@ body {
   margin-top: 1rem;
   padding: 0.8rem 1.5rem;
   background-color: #D88CA4; /* rose/mauve accent */
-  color: white;
+  color: #FFFFFF;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
@@ -178,7 +176,7 @@ body {
 
 /* Footer */
 footer {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
   margin-top: 2rem;
   text-align: center;
