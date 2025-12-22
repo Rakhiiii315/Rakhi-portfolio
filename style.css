@@ -185,9 +185,7 @@ body {
 
 /* Footer */
 footer {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 6rem; /* pushes footer down */
   text-align: center;
   font-size: 0.9rem;
   color: #FFFFFF;
