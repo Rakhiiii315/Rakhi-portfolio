@@ -165,21 +165,23 @@ body {
 .resume-download .btn {
   display: inline-block;
   padding: 15px 25px;
-  background: #40E0D0; /* teal complimentary color */
+  background: #AEC6CF; /* pastel blue */
   color: #000; /* dark text for contrast */
-  border-radius: 12px;
+  border-radius: 12px; /* rounded corners */
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* soft shadow */
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
 }
 
 .resume-download .btn:hover {
-  background: #20B2AA; /* darker teal on hover */
+  background: #87CEEB; /* sky blue hover */
   color: #fff;
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
+
+
 
 /* Footer */
 footer {
