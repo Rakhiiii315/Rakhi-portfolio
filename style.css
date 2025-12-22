@@ -165,8 +165,8 @@ body {
 .resume-download .btn {
   display: inline-block;
   padding: 15px 25px;
-  background: linear-gradient(135deg, #FADADD, #CBA0E3); /* pastel pink → lavender */
-  color: #4B0082; /* deep purple text */
+  background: #40E0D0; /* teal complimentary color */
+  color: #000; /* dark text for contrast */
   border-radius: 12px;
   text-decoration: none;
   font-weight: bold;
@@ -176,7 +176,7 @@ body {
 
 .resume-download .btn:hover {
   background: #20B2AA; /* darker teal on hover */
-  color: #000;
+  color: #fff;
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
