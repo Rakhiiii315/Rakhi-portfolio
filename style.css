@@ -98,10 +98,12 @@ body {
 
 /* Profile Picture */
 .profile-pic {
-  width: 200px;
-  border-radius: 50%;
-  margin-top: 1rem;
-  border: 3px solid #FFFFFF;
+  width: 250px;       /* adjust size */
+  height: auto;
+  border-radius: 50%; /* makes it circular */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: block;
+  margin: 20px auto;
 }
 
 /* Project Cards */
