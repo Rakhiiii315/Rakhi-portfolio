@@ -97,11 +97,15 @@ body {
 }
 
 /* Profile Picture */
-.profile-pic {
-  width: 250px;       /* adjust size */
-  height: auto;
-  border-radius: 50%; /* makes it circular */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+.hex-pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  clip-path: polygon(
+    50% 0%, 100% 25%, 100% 75%, 
+    50% 100%, 0% 75%, 0% 25%
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   display: block;
   margin: 20px auto;
 }
